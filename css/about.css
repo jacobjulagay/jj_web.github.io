@@ -1,0 +1,89 @@
+body{
+}
+.container{
+    background-color: purple;
+    width: 100%;
+    display:table;
+    position: fixed;
+}
+
+.name{
+    font-size:1rem;
+    letter-spacing: 5px;
+    margin-top: 2rem;
+    float: left;
+    text-transform: uppdercase;
+
+}
+
+.name a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+.navbar{
+    float:right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display:block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+
+.navbar li{
+    list-style-type: none;
+    display:inline;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-right: 2rem;
+}
+
+.navbar a:hover{
+    color:aqua;
+}
+
+.ham_menu{
+    width:35px;
+    height:3px;
+    background-color: white;
+    margin: 0.5rem 0;
+    
+}
+
+.navbar-btn{
+    float: right;
+    display: none;
+}
+
+.hidehamburger{
+    visibility:hidden;
+
+}
+
+.exit-img{
+    background-image: url(jj_web.github.io/images/exit.png);
+    background-size: 60%;
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+
+@media screen and (max-width:840px){
+    .navbar li{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: block;
+    }
+    .navbar{
+        width:100%;
+    }
+    .navbar-btn{
+        margin-top: -2rem;
+        display:block;
+    }
+}
