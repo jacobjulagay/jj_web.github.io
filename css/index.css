@@ -1,10 +1,22 @@
 body{
+    background-color:#216869;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+   
 }
+
+
 .container{
-    background-color: purple;
-    width: 100%;
-    display:table;
-    position: fixed;
+    background-color: #FAFFFD;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 550px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .name{
@@ -22,7 +34,7 @@ body{
     margin-left: 3rem;
 }
 .navbar{
-    float:right;
+    float:center;
     margin-right: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -31,20 +43,20 @@ body{
 
 .navbar a{
     text-decoration: none;
-    color:white;
+    color:#342E37;
 }
 
 .navbar li{
     list-style-type: none;
     display:inline;
     margin-left: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
     margin-right: 2rem;
 }
 
-.navbar a:hover{
-    color:aqua;
+.navbar a:hover{    
+    color:grey;
 }
 
 .ham_menu{
@@ -66,7 +78,7 @@ body{
 }
 
 .exit-img{
-    background-image: url(assets/images/exit.png);
+    background-image: url(images/exit.png);
     background-size: 60%;
     background-repeat:no-repeat;
     background-position:center;
@@ -84,6 +96,20 @@ body{
     }
     .navbar-btn{
         margin-top: -2rem;
-        display:block;
+      
     }
 }
+
+img{
+    
+    vertical-align: center;
+    border-style: none;
+}
+
+#profile_card {
+    
+    justify-content: center;
+    align-content: center;
+}
+
+
