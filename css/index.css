@@ -23,7 +23,7 @@ body{
 
 .navbar{
     float:center;
-    margin-right: 2.8rem;
+    margin-right: 3.2rem;
     text-align:center;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -46,7 +46,7 @@ body{
     display:inline;
   
     /* text-transform: uppercase; */
-    letter-spacing: 3px;
+    letter-spacing: 2px;
   
 }
 
