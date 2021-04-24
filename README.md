@@ -1,2 +1,2 @@
-# jj_web.github.io
-Code for personal website
+# Personal Website
+jacobjulagay.com
